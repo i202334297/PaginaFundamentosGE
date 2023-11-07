@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    font-family: 'Lato', sans-serif;
+    background-color: #0c0f1a;
+}
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+.contenedor_principal{
+    background-color: #1a1e29;
+    padding: 10px;
+    margin: auto;
+    max-width: 960px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.direccion{
+    background-color: #464352;
+    padding: 10px;
+    font-size: 20px;
+}
+.direccion ul{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.direccion ul li{
+    margin-left: 100px;
+
+}
+/*ESTILOS HEADER START*/
+header{
+    display: flex;
+    background-color: #272d3d;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;   
+}
+header a{
+    margin: 1rem;
+    text-decoration: none;
+    color: #DDE6ED;
+    font-weight: 600;
+    padding-right: 10px;
+}
+.logo-nombre{
+    font-size: 30px;
+}
+.logo_a{
+    display: flex;
+    align-items: center;
+}
+.logo_img{
+    height: 50px;
+    margin-right: 10px;
+}
+nav a{
+    font-size: 18px;
+}
+nav a:hover{
+    color: #27374D;
+}
+/*ESTILOS HEADER END*/
+
+
+
+
+
+/*CARRIO USER BUSCAR START*/
+.buscador-carrito-user {
+    display: flex;
+    align-items: center;
+}
+.buscador {
+    display: flex;
+    align-items: center;
+    margin-right: 11px; /* Agrega un margen entre el buscador y el carrito */
+}
+input{
+    width: 200px;
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 5px 0 0 5px;
+    border:0;
+    outline: none;
+    font-size: small;
+}
+.btn-search, .btn-cart, .btn-user {
+    background: #DDE6ED;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-search {
+    border-radius: 0px 5px 5px  0px;
+}
+.btn-cart, .btn-user {
+    border-radius: 5px; /* crea bordes en las esquinas */
+    margin-right: 6px; /* esta separando a el carrito y el user */
+}
+.btn-search:hover {
+    background-color: #27374D;
+}
+.btn-cart:hover{
+    background-color: #27374D;
+}
+.btn-user:hover{
+    background-color: #27374D;
+}
+/*CARRITO USER BUSCAR END*/
+
+
+/*LISTA DE PRODUCTOS START*/
+section a{
+    text-decoration: none;
+}
+.lista_ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.producto_li{
+   text-align: center;
+    width: 300px;
+    
+    background-color: #272d3d;
+    border-radius: 10px;
+    margin: 1px; /*margen de distacia entre productos*/
+    margin-top: 20px;
+}
+
+.product_link h2{
+    color: #DDE6ED;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.img_producto_link img{
+    padding: 10px;
+    width: 280px;
+    border-radius: 20px;
+}
+
+.img_producto_link {
+    border-radius: 10px;
+}
+
+
+.price h3{
+    text-align: center;
+    padding: 10px;
+    color: #DDE6ED;
+    font-size: 25px;
+}
+
+.boton_wa h3{
+    text-align: center;
+    padding: 10px;
+    background: #44bb58;
+    color: #DDE6ED;
+    font-size: 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+
+/*LISTA DE PRODUCTOS END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ESTILOS FOOTER START*/
+
+footer {
+    background: linear-gradient(to top, #363636, #232323);
+    /* text-align: center; */
+    padding: 20px ;
+    margin-top: 20px;
+}
+
+footer .footer-content {
+    color: #DDE6ED;
+    font-size: 30px;
+}
+
+.camion1{
+    width: 51px;
+}
+
+.camion2{
+    width: 40px;
+}
+
+.camion3{
+    width: 45px;
+}
+
+.div-footer{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.div-footer h1,p{
+    color: white;
+    font-size: 15px;
+}
+
+.div-footer button{
+    margin-top: 15px;
+    border: none;
+    padding: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: white;
+    background-color: #27374d00;
+    cursor: pointer;
+}
+
+.div-footer button:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.redes-sociales{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+#img-redes{
+    margin: 0.3rem;
+}
+
+.terminos-div{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.terminos-div h4, li{
+    color: white;
+    font-size: 15px;
+    list-style: none;
+    margin-bottom: 4px;
+}
+
+
+.footer-content{
+    background-color: #DDE6ED;
+}
+
+.footer-content p{
+    color: #232323;
+}
+.libro{
+    padding-top: 15px;
+}
+/*ESTILOS FOOTER END*/
+@media (max-width:720px){
+    .contenedor_principal{
+
+        flex-direction: column;
+    }
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    header input{
+        width: 100px;
+    }
+}
